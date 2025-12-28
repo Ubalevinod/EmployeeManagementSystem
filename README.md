@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# 🏢 Employee Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack **Employee Management System** built using **React.js**, **Spring Boot**, and **MySQL**.  
+This application provides role-based access for **Admin** and **Employees** to manage employee records, leave applications, and communication efficiently.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+### 👨‍💼 Admin Dashboard
+- Add new employees  
+- Update employee details  
+- Delete employee records  
+- View all employees  
+- Manage leave applications (Approve / Reject)  
+- Manage user accounts  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 👩‍💻 Employee Dashboard
+- View personal profile  
+- Apply for leave  
+- View leave application status  
+- Update personal details  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 📅 Leave Management
+- Employees can apply for leave  
+- Admin can approve or reject leave requests  
+- Employees can track leave status  
 
-### `npm test`
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Bootstrap 5  
+- **Backend:** Spring Boot (Java)  
+- **Database:** MySQL  
+- **API:** RESTful APIs  
+- **Version Control:** Git & GitHub  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🚀 Setup Instructions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🔹 Backend (Spring Boot)
+1. Open the `Backend` folder in **Eclipse / IntelliJ IDEA**
+2. Configure database details in `application.properties`
+3. Create the MySQL database
+4. Run the Spring Boot application
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🔹 Frontend (React)
+1. Open the project root folder in **VS Code**
+2. Install dependencies:
+   ```bash
+   npm install
+---
 
-### `npm run eject`
+## 📸 Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🏠 Home Page
+![Home Page](Screenshots/home-page.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🔐 Login
+![Login Form](Screenshots/login-form.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 📝 Register
+![Register Form 1](Screenshots/register-form1.png)
+![Register Form 2](Screenshots/register-form2.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 👨‍💼 Admin Dashboard
+![Admin Dashboard](Screenshots/admin-dashboard.png)
 
-## Learn More
+### 📊 Admin Cards
+![Admin Cards](Screenshots/admin-cards.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### ➕ Add Employee
+![Add Employee](Screenshots/add-employee.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 📄 Search by Department
+![Search by Department](Screenshots/search-by-department.png)
 
-### Code Splitting
+### 🧾 Issue Leave
+![Issue Leave](Screenshots/issue-leave.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 📝 Apply for Leave
+![Apply for Leave](Screenshots/apply-for-leaves.png)
 
-### Analyzing the Bundle Size
+### 📊 Leave Status
+![Leave Status](Screenshots/leave-status.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 👩‍💻 User Dashboard
+![User Dashboard](Screenshots/user-dashboard.png)
 
-### Making a Progressive Web App
+### 🧩 User Cards
+![User Cards](Screenshots/user-cards.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### ℹ️ About Us
+![About Us](Screenshots/about-us.png)
 
-### Advanced Configuration
+### 📞 Contact Us
+![Contact Us](Screenshots/contact-us.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 🛠️ Service Page
+![Service Page](Screenshots/service-page.png)
 
-### Deployment
+📌 About the Project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This Employee Management System helps organizations efficiently manage employees, leave workflows, and communication.
+Admins can control employee data, while employees can easily manage their profiles and leave requests.
 
-### `npm run build` fails to minify
+👨‍💻 Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Vinod Ubale
+GitHub: https://github.com/Ubalevinod
