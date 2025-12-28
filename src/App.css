@@ -36,3 +36,147 @@
     transform: rotate(360deg);
   }
 }
+
+.employeeform{
+  border: 3px solid black;
+  padding: 20px;
+  background-color:burlywood;
+  width: 56%;
+  border-radius: 10px;
+
+
+}
+.leaveform{
+  border: 3px solid lightsalmon;
+  padding: 20px;
+  background-color:lightyellow;
+  width: 56%;
+  border-radius: 10px;
+
+}
+.employeeformupdate{
+  border: 3px solid green;
+  padding: 20px;
+  background-color:lightgreen;
+  width: 56%;
+  border-radius: 10px;
+
+}
+.registerform{
+  border: 3px solid blue;
+  padding:20px;
+  background-color: lightblue;
+  width: 56%;
+  border-radius: 10px;
+}
+
+.loginform{
+  border: 3px solid orange;
+  padding: 20px;
+  width: 56%;
+  background-color: lightgoldenrodyellow;
+  border-radius: 10px;
+}
+
+.background-section {
+  background-image: url('https://media.istockphoto.com/id/1135957638/photo/when-stress-starts-to-creep-in.jpg?s=612x612&w=0&k=20&c=5RUyWXwI48nvu5g9NfLdq8H7RnKlPdTiGLR-nn3J2SY='); /* Replace with your actual image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* This sets a transparent background overlay */
+  background-color: rgba(255, 255, 255, 0.6); /* Optional semi-transparent white */
+  background-blend-mode:hard-light;
+
+  min-height: 100vh; /* Makes sure it covers the full viewport height */
+  width: 100%;
+}
+.background-sectionservice{
+  background-image: url('https://st.depositphotos.com/62628780/59059/i/450/depositphotos_590596492-stock-photo-portrait-young-call-centre-agent.jpg'); /* Replace with your actual image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* This sets a transparent background overlay */
+  background-color: rgba(255, 255, 255, 0.6); /* Optional semi-transparent white */
+  background-blend-mode:lighten;
+
+  min-height: 100vh; /* Makes sure it covers the full viewport height */
+  width: 100%;
+
+}
+
+.background-sectionabout{
+  background-image: url('https://img.freepik.com/free-photo/businessman-showing-changes-report_1098-3504.jpg?semt=ais_hybrid&w=740'); /* Replace with your actual image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* This sets a transparent background overlay */
+  background-color: rgba(255, 255, 255, 0.6); /* Optional semi-transparent white */
+  background-blend-mode:lighten;
+
+  min-height: 100vh; /* Makes sure it covers the full viewport height */
+  width: 100%;
+
+}
+
+.background-sectioncontact{
+   background-image: url('https://img.freepik.com/premium-photo/portrait-handsome-young-business-man-with-people-background-office-meeting_530697-23025.jpg'); /* Replace with your actual image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* This sets a transparent background overlay */
+  background-color: rgba(255, 255, 255, 0.6); /* Optional semi-transparent white */
+  background-blend-mode:lighten;
+
+  min-height: 100vh; /* Makes sure it covers the full viewport height */
+  width: 100%;
+
+}
+
+.background-sectionadmin{
+   background-image: url('https://img.freepik.com/free-vector/technology-wire-mesh-network-connection-digital-background_1017-28407.jpg?semt=ais_hybrid&w=740'); /* Replace with your actual image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* This sets a transparent background overlay */
+  background-color: rgba(255, 255, 255, 0.6); /* Optional semi-transparent white */
+  background-blend-mode:lighten;
+
+  min-height: 100vh; /* Makes sure it covers the full viewport height */
+  width: 100%;
+
+}
+
+.background-sectionemployee{
+   background-image: url('https://t4.ftcdn.net/jpg/06/77/82/99/360_F_677829919_M1H0nV7vkLxxw80Ec6ilhpepWVAVEpXs.jpg'); /* Replace with your actual image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* This sets a transparent background overlay */
+  background-color: rgba(255, 255, 255, 0.6); /* Optional semi-transparent white */
+  background-blend-mode:lighten;
+
+  min-height: 100vh; /* Makes sure it covers the full viewport height */
+  width: 100%;
+
+}
+
+.background-sectionregistration{
+   background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230616/pngtree-abstract-modern-digital-networked-image-with-red-and-yellow-perspective-background-image_3624495.jpg'); /* Replace with your actual image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* This sets a transparent background overlay */
+  background-color: rgba(255, 255, 255, 0.6); /* Optional semi-transparent white */
+ background-blend-mode: lighten;
+
+  min-height: 100vh; /* Makes sure it covers the full viewport height */
+  width: 100%;
+
+}
